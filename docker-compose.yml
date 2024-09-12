@@ -1,16 +1,13 @@
 services:
   sleek-airflow:
     image: sleek-airflow:latest
-
     volumes:
       - ./airflow:/opt/airflow
-
+      - ./requirements.txt:/requirements.txt  # Mount requirements.txt to the container
     ports:
       - "8080:8080"
-
     environment:
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
       - AIRFLOW__WEBSERVER__EXPOSE_CONFIG=True
-
     entrypoint: >
-      bash -c "airflow db init && airflow scheduler & airflow webserver"
+      bash -c "pip install -r /requirements.txt && airflow db init && airflow scheduler & airflow webserver"

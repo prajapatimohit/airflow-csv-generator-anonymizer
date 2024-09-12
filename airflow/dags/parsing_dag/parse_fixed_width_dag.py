@@ -7,7 +7,7 @@ import subprocess
 # Define the command to run the Python script
 def run_parsing_script(spec_file, input_file, output_file):
     command = [
-        'python3', '/opt/airflow/dags/fixed_width_parser.py',  # Adjust the path to your script location
+        'python3', '/opt/airflow/dags/parsing_dag/fixed_width_parser.py',  # Adjust the path to your script location
         '--spec', spec_file,
         '--input_file', input_file,
         '--output_file', output_file
@@ -40,9 +40,9 @@ with DAG(
         task_id='parse_fixed_width',
         python_callable=run_parsing_script,
         op_kwargs={
-            'spec_file': '/opt/airflow/dags/spec.json',  # Update with the path to your spec.json
-            'input_file': '/opt/airflow/dags/input_file.txt',  # Update with the path to your input fixed-width file
-            'output_file': '/opt/airflow/dags/output_file.csv'  # Update with the desired output CSV path
+            'spec_file': '/opt/airflow/dags/parsing_dag/spec.json',  # Update with the path to your spec.json
+            'input_file': '/opt/airflow/dags/parsing_dag/input_file.txt',  # Update with the path to your input fixed-width file
+            'output_file': '/opt/airflow/dags/parsing_dag/output_file.csv'  # Update with the desired output CSV path
         }
     )
 

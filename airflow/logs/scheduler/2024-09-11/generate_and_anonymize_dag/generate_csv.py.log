@@ -1,0 +1,29 @@
+[2024-09-11T13:38:24.048+0000] {processor.py:186} INFO - Started process (PID=1243) to work on /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py
+[2024-09-11T13:38:24.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py for tasks to queue
+[2024-09-11T13:38:24.100+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:24.100+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py
+[2024-09-11T13:38:24.388+0000] {processor.py:925} INFO - DAG(s) 'generate_and_anonymize_csv' retrieved from /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py
+[2024-09-11T13:38:25.299+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:25.296+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:generate_and_anonymize_csv
+[2024-09-11T13:38:25.370+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:25.369+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:generate_and_anonymize_csv
+[2024-09-11T13:38:25.470+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:25.469+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:generate_and_anonymize_csv
+[2024-09-11T13:38:25.895+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:25.894+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:generate_and_anonymize_csv
+[2024-09-11T13:38:26.003+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:26.001+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:generate_and_anonymize_csv
+[2024-09-11T13:38:26.067+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:26.066+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:generate_and_anonymize_csv
+[2024-09-11T13:38:26.117+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:26.116+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:generate_and_anonymize_csv
+[2024-09-11T13:38:26.119+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:26.118+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-11T13:38:26.192+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:26.192+0000] {dag.py:3252} INFO - Creating ORM DAG for generate_and_anonymize_csv
+[2024-09-11T13:38:26.194+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:26.194+0000] {dag.py:4156} INFO - Setting next_dagrun for generate_and_anonymize_csv to None, run_after=None
+[2024-09-11T13:38:26.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py took 2.292 seconds
+[2024-09-11T13:38:56.987+0000] {processor.py:186} INFO - Started process (PID=1245) to work on /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py
+[2024-09-11T13:38:56.990+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py for tasks to queue
+[2024-09-11T13:38:56.996+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:56.995+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py
+[2024-09-11T13:38:57.043+0000] {processor.py:925} INFO - DAG(s) 'generate_and_anonymize_csv' retrieved from /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py
+[2024-09-11T13:38:57.115+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:57.115+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-11T13:38:57.162+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:38:57.162+0000] {dag.py:4156} INFO - Setting next_dagrun for generate_and_anonymize_csv to None, run_after=None
+[2024-09-11T13:38:57.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py took 0.444 seconds
+[2024-09-11T13:39:28.490+0000] {processor.py:186} INFO - Started process (PID=1247) to work on /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py
+[2024-09-11T13:39:28.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py for tasks to queue
+[2024-09-11T13:39:28.495+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:39:28.494+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py
+[2024-09-11T13:39:28.538+0000] {processor.py:925} INFO - DAG(s) 'generate_and_anonymize_csv' retrieved from /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py
+[2024-09-11T13:39:28.593+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:39:28.593+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-11T13:39:28.624+0000] {logging_mixin.py:190} INFO - [2024-09-11T13:39:28.623+0000] {dag.py:4156} INFO - Setting next_dagrun for generate_and_anonymize_csv to None, run_after=None
+[2024-09-11T13:39:28.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/generate_and_anonymize_dag/generate_csv.py took 0.252 seconds

@@ -4041,3 +4041,527 @@ File Path                                   PID    Runtime      # DAGs    # Erro
 /opt/airflow/dags/parse_fixed_width_dag.py                           1           0  0.61s           2024-09-11T09:57:50                      10
 /opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2024-09-11T09:58:19                      12
 ================================================================================
+[2024-09-11T19:02:24.697+0000] {manager.py:486} INFO - Processing files using up to 1 processes at a time 
+[2024-09-11T19:02:24.699+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2024-09-11T19:02:24.700+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-09-11T19:02:24.701+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2024-09-11T19:02:24.975+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2024-09-11T19:02:25.646+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:02:25                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               0           0                                                            0
+================================================================================
+[2024-09-11T19:02:56.625+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.52s           2024-09-11T19:02:27                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.51s           2024-09-11T19:02:56                      10
+================================================================================
+[2024-09-11T19:03:27.447+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:02:58                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.32s           2024-09-11T19:03:27                      10
+================================================================================
+[2024-09-11T19:03:58.777+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.71s           2024-09-11T19:03:58                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:03:29                      10
+================================================================================
+[2024-09-11T19:04:28.795+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.71s           2024-09-11T19:03:58                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:04:00                      10
+================================================================================
+[2024-09-11T19:05:00.170+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.61s           2024-09-11T19:04:30                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:04:32                      10
+================================================================================
+[2024-09-11T19:05:30.173+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:05:01                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:05:03                      10
+================================================================================
+[2024-09-11T19:06:01.084+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.71s           2024-09-11T19:05:33                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:05:35                      10
+================================================================================
+[2024-09-11T19:06:38.155+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:06:38                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:06:06                      10
+================================================================================
+[2024-09-11T19:07:08.555+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.42s           2024-09-11T19:06:40                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:07:08                      10
+================================================================================
+[2024-09-11T19:07:25.970+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2024-09-11T19:07:26.228+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2024-09-11T19:07:39.479+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:07:10                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:07:39                      10
+================================================================================
+[2024-09-11T19:08:10.427+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:08:10                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:07:41                      10
+================================================================================
+[2024-09-11T19:08:41.521+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.51s           2024-09-11T19:08:12                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:08:41                      10
+================================================================================
+[2024-09-11T19:09:12.097+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:08:43                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:09:12                      10
+================================================================================
+[2024-09-11T19:09:43.444+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  1.01s           2024-09-11T19:09:43                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.61s           2024-09-11T19:09:14                      10
+================================================================================
+[2024-09-11T19:10:14.585+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:10:14                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:09:46                      10
+================================================================================
+[2024-09-11T19:10:45.465+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.32s           2024-09-11T19:10:17                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:10:45                      10
+================================================================================
+[2024-09-11T19:11:16.304+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:11:16                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:10:48                      10
+================================================================================
+[2024-09-11T19:11:51.182+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:11:51                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:11:19                      10
+================================================================================
+[2024-09-11T19:12:21.676+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:12:21                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:11:52                      10
+================================================================================
+[2024-09-11T19:12:26.095+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2024-09-11T19:12:26.557+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2024-09-11T19:12:52.706+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.32s           2024-09-11T19:12:52                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:12:23                      10
+================================================================================
+[2024-09-11T19:13:23.787+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:12:54                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:13:23                      10
+================================================================================
+[2024-09-11T19:13:54.172+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:13:25                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:13:54                      10
+================================================================================
+[2024-09-11T19:14:24.209+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:13:56                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:13:54                      10
+================================================================================
+[2024-09-11T19:14:55.775+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:14:55                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:14:26                      10
+================================================================================
+[2024-09-11T19:15:26.744+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:14:57                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:15:26                      10
+================================================================================
+[2024-09-11T19:15:57.658+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:15:28                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:15:57                      10
+================================================================================
+[2024-09-11T19:16:28.383+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:16:28                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:15:59                      10
+================================================================================
+[2024-09-11T19:16:59.391+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.62s           2024-09-11T19:16:30                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:16:59                      10
+================================================================================
+[2024-09-11T19:17:27.374+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2024-09-11T19:17:27.753+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2024-09-11T19:17:30.364+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.42s           2024-09-11T19:17:30                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:17:01                      10
+================================================================================
+[2024-09-11T19:18:00.793+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:17:31                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:18:00                      10
+================================================================================
+[2024-09-11T19:18:31.630+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:18:31                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:18:02                      10
+================================================================================
+[2024-09-11T19:19:02.411+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.51s           2024-09-11T19:18:33                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:19:02                      10
+================================================================================
+[2024-09-11T19:19:33.096+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:19:33                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:19:04                      10
+================================================================================
+[2024-09-11T19:20:04.067+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:20:04                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:19:35                      10
+================================================================================
+[2024-09-11T19:20:34.989+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:20:34                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:20:05                      10
+================================================================================
+[2024-09-11T19:21:05.823+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.51s           2024-09-11T19:20:36                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:21:05                      10
+================================================================================
+[2024-09-11T19:21:36.373+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:21:07                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:21:36                      10
+================================================================================
+[2024-09-11T19:22:07.219+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:22:07                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:21:37                      10
+================================================================================
+[2024-09-11T19:22:27.674+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2024-09-11T19:22:28.031+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2024-09-11T19:22:38.015+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:22:08                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:22:38                      10
+================================================================================
+[2024-09-11T19:23:08.712+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.62s           2024-09-11T19:22:40                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:23:08                      10
+================================================================================
+[2024-09-11T19:23:39.442+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.61s           2024-09-11T19:23:39                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:23:10                      10
+================================================================================
+[2024-09-11T19:24:10.007+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.42s           2024-09-11T19:23:41                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:24:09                      10
+================================================================================
+[2024-09-11T19:24:40.770+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  1.03s           2024-09-11T19:24:13                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:24:40                      10
+================================================================================
+[2024-09-11T19:25:11.272+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.51s           2024-09-11T19:24:44                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:25:11                      10
+================================================================================
+[2024-09-11T19:25:42.325+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.61s           2024-09-11T19:25:42                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:25:16                      10
+================================================================================
+[2024-09-11T19:26:13.321+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:26:13                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:25:46                      10
+================================================================================
+[2024-09-11T19:26:43.975+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:26:43                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:26:17                      10
+================================================================================
+[2024-09-11T19:27:15.452+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.51s           2024-09-11T19:27:15                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.41s           2024-09-11T19:26:49                      10
+================================================================================
+[2024-09-11T19:27:28.164+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2024-09-11T19:27:28.418+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2024-09-11T19:27:46.285+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:27:19                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.31s           2024-09-11T19:27:46                      10
+================================================================================
+[2024-09-11T19:28:17.051+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.51s           2024-09-11T19:27:50                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-11T19:28:17                      10
+================================================================================
+[2024-09-11T19:28:47.767+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.44s           2024-09-11T19:28:47                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:28:20                      10
+================================================================================
+[2024-09-11T19:29:18.751+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.51s           2024-09-11T19:29:18                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.51s           2024-09-11T19:28:52                      10
+================================================================================
+[2024-09-11T19:29:50.101+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.51s           2024-09-11T19:29:50                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.31s           2024-09-11T19:29:23                      10
+================================================================================
+[2024-09-12T05:17:22.407+0000] {manager.py:486} INFO - Processing files using up to 1 processes at a time 
+[2024-09-12T05:17:22.437+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2024-09-12T05:17:22.465+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-09-12T05:17:22.469+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2024-09-12T05:17:28.628+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2024-09-12T05:17:30.643+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.87s           2024-09-12T05:17:30                      10
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               0           0                                                            0
+================================================================================
+[2024-09-12T05:18:01.632+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/parsing_dag/parse_fixed_width_dag.py                                               1           0  0.91s           2024-09-12T05:17:35                      10
+/opt/airflow/dags/generate_and_anonymize_dag/generate_and_anonymize_dag.py                           1           0  0.41s           2024-09-12T05:18:01                      10
+================================================================================

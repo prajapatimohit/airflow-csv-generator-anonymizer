@@ -1,0 +1,18 @@
+[2024-09-12T05:29:21.843+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-12T05:29:21.881+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: generate_and_anonymize_dag.generate_csv manual__2024-09-12T05:23:55.623435+00:00 [queued]>
+[2024-09-12T05:29:21.918+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: generate_and_anonymize_dag.generate_csv manual__2024-09-12T05:23:55.623435+00:00 [queued]>
+[2024-09-12T05:29:21.919+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2024-09-12T05:29:21.989+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): generate_csv> on 2024-09-12 05:23:55.623435+00:00
+[2024-09-12T05:29:21.995+0000] {standard_task_runner.py:72} INFO - Started process 134 to run task
+[2024-09-12T05:29:22.004+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'generate_and_anonymize_dag', 'generate_csv', 'manual__2024-09-12T05:23:55.623435+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/generate_and_anonymize_dag/generate_and_anonymize_dag.py', '--cfg-path', '/tmp/tmp91ld7qe3']
+[2024-09-12T05:29:22.011+0000] {standard_task_runner.py:105} INFO - Job 33: Subtask generate_csv
+[2024-09-12T05:29:22.390+0000] {task_command.py:467} INFO - Running <TaskInstance: generate_and_anonymize_dag.generate_csv manual__2024-09-12T05:23:55.623435+00:00 [running]> on host 77b118d2d3a1
+[2024-09-12T05:29:22.572+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='generate_and_anonymize_dag' AIRFLOW_CTX_TASK_ID='generate_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-09-12T05:23:55.623435+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-12T05:23:55.623435+00:00'
+[2024-09-12T05:29:22.573+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-12T05:29:24.866+0000] {logging_mixin.py:190} INFO - CSV generation output: 
+[2024-09-12T05:29:24.867+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-09-12T05:29:24.889+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-12T05:29:24.890+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=generate_and_anonymize_dag, task_id=generate_csv, run_id=manual__2024-09-12T05:23:55.623435+00:00, execution_date=20240912T052355, start_date=20240912T052921, end_date=20240912T052924
+[2024-09-12T05:29:24.991+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-09-12T05:29:25.080+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-09-12T05:29:25.098+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
