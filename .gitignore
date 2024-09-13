@@ -1,0 +1,8 @@
+# Ignore all logs in the Airflow logs directory
+airflow/logs/
+
+# Ignore all .log files
+*.log
+
+# Ignore the Airflow webserver PID file
+airflow/airflow-webserver.pid

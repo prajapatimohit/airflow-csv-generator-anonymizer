@@ -1,0 +1,18 @@
+{
+    "csv_files": [
+        {
+            "file_name": "/opt/airflow/dags/generate_and_anonymize_dag/data_generated/fake_data1.csv",
+            "num_rows": 10000,
+            "anonymized_file_name": "/opt/airflow/dags/generate_and_anonymize_dag/anonymized_data1.csv",
+            "fields_to_anonymize": ["first_name", "last_name", "address"],
+            "chunk_size": 1000
+        },
+        {
+            "file_name": "/opt/airflow/dags/generate_and_anonymize_dag/data_generated/fake_data2.csv",
+            "num_rows": 50000,
+            "anonymized_file_name": "/opt/airflow/dags/generate_and_anonymize_dag/anonymized_data2.csv",
+            "fields_to_anonymize": ["name", "email", "phone"],
+            "chunk_size": 5000
+        }
+    ]
+}
